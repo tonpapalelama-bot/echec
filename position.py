@@ -57,3 +57,4 @@ class Position:
     def __hash__(self):
         """Nécessaire pour utiliser des Position comme clés de dictionnaire"""
         return hash((self.__column, self.__row))
+
