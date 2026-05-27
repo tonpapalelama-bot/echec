@@ -4,11 +4,7 @@
 # =============================================================================
 
 class Position:
-    """
-    Une position est définie par :
-      - column : une lettre de 'a' à 'h' (colonne)
-      - row    : un entier de 1 à 8 (ligne)
-    Exemple : Position('e', 4) représente la case e4
+    on('e', 4) représente la case e4
     """
 
     def __init__(self, column, row):
