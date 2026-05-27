@@ -202,3 +202,4 @@ class TestBoard(unittest.TestCase):
 if __name__ == '__main__':
     # verbose=2 affiche le détail de chaque test
     unittest.main(verbosity=2)
+
