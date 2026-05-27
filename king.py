@@ -40,7 +40,7 @@ class King(Piece):
 
         # Vérifier qu'il n'y a pas une pièce alliée sur la case d'arrivée
         target_piece = board.getPiece(newPosition)
-        if target_piece is not None and target_piece.get_color() == self.get_color():
+        if target_piece is not None and target_piece.get_color() == self.get_color(): #il ne peut pas y aller si piece mm couleur
             return False
 
         return True
