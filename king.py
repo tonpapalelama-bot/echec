@@ -28,7 +28,7 @@ class King(Piece):
         # Calculer la différence de colonne (les lettres se convertissent en entiers avec ord())
         # ord('a')=97, ord('b')=98, ... donc ord('c')-ord('a') = 2
         col_diff = abs(ord(newPosition.get_column()) - ord(current.get_column()))
-        row_diff = abs(newPosition.get_row() - current.get_row())
+        row_diff = abs(newPosition.get_row() - current.get_row())  #permet de savoir de cb de case le roi deplace 
 
         # Le roi doit bouger d'au plus 1 case dans chaque direction
         if col_diff > 1 or row_diff > 1:  #horizontale et verticale 
