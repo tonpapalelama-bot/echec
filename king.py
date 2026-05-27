@@ -1,7 +1,4 @@
-# =============================================================================
-# king.py  –  Séance 3 (squelette) → Séance 5 (isValidMove complet)
-# Le Roi : se déplace d'une seule case dans toutes les directions
-# =============================================================================
+
 
 from piece import Piece
 
