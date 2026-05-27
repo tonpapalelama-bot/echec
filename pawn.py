@@ -64,3 +64,4 @@ class Pawn(Piece):
 
     def __str__(self):
         return 'P'
+
