@@ -55,3 +55,4 @@ class Piece(ABC):
         K=Roi  Q=Reine  B=Fou  N=Cavalier  R=Tour  P=Pion
         """
         pass
+
