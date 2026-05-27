@@ -14,7 +14,7 @@ class King(Piece):
 
     def __init__(self, position, color):
         # On appelle le constructeur de la classe parente (Piece)
-        super().__init__(position, color)
+        super().__init__(position, color) #recup la position actuel du roi 
 
     def isValidMove(self, newPosition, board):
         """
@@ -23,7 +23,7 @@ class King(Piece):
           - Ne peut pas rester sur place
           - Ne peut pas aller sur une case occupée par une pièce alliée
         """
-        current = self.get_position()
+        current = self.get_position() #recup la nouvelle position du roi
 
         # Calculer la différence de colonne (les lettres se convertissent en entiers avec ord())
         # ord('a')=97, ord('b')=98, ... donc ord('c')-ord('a') = 2
