@@ -31,7 +31,7 @@ class King(Piece):
         row_diff = abs(newPosition.get_row() - current.get_row())
 
         # Le roi doit bouger d'au plus 1 case dans chaque direction
-        if col_diff > 1 or row_diff > 1:
+        if col_diff > 1 or row_diff > 1:  #horizontale et verticale 
             return False
 
         # Interdit de rester sur place
