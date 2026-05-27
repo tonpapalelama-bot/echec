@@ -44,3 +44,4 @@ class Knight(Piece):
 
     def __str__(self):
         return 'N'
+
