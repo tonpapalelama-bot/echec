@@ -1,8 +1,4 @@
-# =============================================================================
-# rook.py  –  Séance 3 (squelette) → Séance 5 (isValidMove complet)
-# La Tour : se déplace en ligne droite (horizontal ou vertical)
-# =============================================================================
-
+# 
 from piece import Piece
 from position import Position
 
